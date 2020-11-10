@@ -15,3 +15,6 @@ def staircase(n)
 end
 
 staircase(5)
+339
+
+3396900000
