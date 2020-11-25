@@ -10,5 +10,5 @@ def findDigits(n)
   counter
 end
 
-number = 12345608
+number = 123456097
 puts findDigits(number)

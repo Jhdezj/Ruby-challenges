@@ -9,7 +9,7 @@
             "name": "(gdb) Launch",
             "type": "Ruby",
             "request": "launch",
-            "program": "${workspaceRoot}/Chocolate_Feast.rb",
+            "program": "${workspaceRoot}/palindrome_index.rb",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
