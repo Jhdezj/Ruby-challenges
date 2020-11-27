@@ -1,20 +1,16 @@
+def fibonacci_even(n)
+  a_2 = 2
+  a_1 = 1
+  aux = a_2
+  pairs_sum = 0
 
-
-def fibonacci(n)
-  return 1 if n == 1 
-  return 2 if n == 2
-  return fibonacci(n-1) + fibonacci(n-2)
+  while a_2 < n
+    pairs_sum += a_2 if a_2.even?
+    a_2 += a_1
+    a_1 = aux
+    aux = a_2
+  end
+  pairs_sum
 end
 
-
-(1...n).inject|sum, x|
-  sum + 
-
-
-end
-
-
-
-
-  puts fibonacci(7)
-
+puts fibonacci_even(100)
